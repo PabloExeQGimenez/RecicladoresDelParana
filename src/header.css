@@ -1,0 +1,44 @@
+.header{
+    display: flex;
+    background-color: #ffffff;
+    color: white;
+    justify-content: space-evenly;
+    padding: 1em;
+    margin-bottom: 1em;
+    background: linear-gradient(90deg, rgba(255, 251, 251, 0.7), rgba(22, 45, 80,0.7));
+}
+.header img {
+    width: 6rem;
+    margin-bottom: 1em;
+}
+.logoH1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    background-color: cadetblue;
+    border-radius: 1em;
+    height: 3rem;
+    padding: 0.5em;
+}
+nav ul li {
+    background-color: cadetblue;
+    color: white;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    padding: 0.5em 1em;
+}
+nav ul li a:hover {
+    color: black;
+    height: 100%;
+    background-color: white;
+    border-radius: 1em;
+}
