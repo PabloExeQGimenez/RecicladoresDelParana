@@ -1,0 +1,28 @@
+
+body{
+  display: grid;
+  grid-template:
+  /*=============plantilla pc================================*/
+  " divtop divtop divtop divtop "   2rem
+  " header header nav    nav    "   8rem
+  " banner banner banner banner "   16rem
+  " main   main   main   main   "   calc(100dvh - 34rem)
+  " footer footer footer footer "   8rem   
+  /  1fr    1fr    1fr    1fr   ;
+  /*=========================================================*/
+}
+.divtop {grid-area: divtop;}
+header  {grid-area: header;}
+nav     {grid-area: nav   ;}
+.banner {grid-area: banner;}
+main    {grid-area: main  ;}
+footer  {grid-area: footer;}
+
+
+/* minmax(100px, 1fr) 
+no margin ni padding --> gap: 3 3 
+repeat(auto-fill, minmax(200px, 1fr) cada 200px pone una columna
+max-width para limitar el contenedor osea las columnas 600px si quiero 3 
+auto-fit, ocupa todo el espacio si hay menos elementos de los requeridos
+
+*/
