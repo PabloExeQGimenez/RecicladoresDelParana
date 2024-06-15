@@ -1,14 +1,15 @@
+@import url(reset.css);
 
-body{
+.contenedor{
   display: grid;
-  grid-template:
+  grid-template: 
   /*=============plantilla pc================================*/
   " divtop divtop divtop divtop divtop divtop divtop divtop "  2.3rem
   " .      header header nav    nav    nav    nav    .      "  6rem
   " banner banner banner banner banner banner banner banner "  25rem
-  " sec1   sec1   sec1   sec1   sec1   sec1   sec1   sec1   "  17rem
+  " sec1   sec1   sec1   sec1   sec1   sec1   sec1   sec1   "  18rem
   " pverde pverde pverde pverde pverde pverde pverde pverde "  10.5rem
-  " main   main   main   main   main   main   main   main   "  calc(100dvh - 32.3rem)
+  " main   main   main   main   main   main   main   main   "  100vh
   " footer footer footer footer footer footer footer footer "  16rem   
   / 1fr    1fr    1fr    1fr    1fr    1fr    1fr    1fr    ;
   /*=========================================================*/
