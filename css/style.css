@@ -31,17 +31,17 @@ header, nav{
 
 .logo{
   display: flex;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
-  gap: 0.5em;
+  gap: 0.2em;
 }
 
 .logo img{
-  width: 7rem;
+  width: 5rem;
 }
 
 h1{
-  font-size: 2.2em;
+  font-size: 2em;
   margin: 0;
   color: var(--azul);
   text-align: center;
@@ -51,5 +51,116 @@ h1 .i{
   color: var(--verde1);
 }
 h1 span{
-  letter-spacing: 0.1em;
+  letter-spacing: 0.09em;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 0.5rem
+}
+
+nav a{
+  color: var(--azul);
+  font-size: 1.3rem;
+  padding: 0.5rem;
+  transition: all ease-in-out 0.4s;
+}
+nav a:hover{
+  box-shadow: 0 1px 3px 1px var(--verde1);
+  border-radius: 5px;
+}
+
+nav a:last-child{
+  border-bottom: 2px solid var(--verde1);
+  transition: all 0.5s ease-out;
+}
+nav a:last-child:hover{
+  box-shadow: 0 1px 3px 1px var(--verde1);
+  border-radius: 5px;
+}
+.carousel{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  box-shadow: 0 3px 5px 5px rgba(0, 0, 0, 0.5);
+}
+.carousel img{
+  height: 25rem;
+  width: 100%;
+  object-fit: cover;
+  box-shadow: 10 10px 10px 0px rgba(0, 0, 0, 0.5);
+}
+.carousel-item:nth-child(1) img{
+  object-position:0 45%;
+}
+
+.carousel-item:nth-child(2) img{
+  object-position:0 90%;
+}
+.carousel-item:nth-child(3) img{
+  object-position:0 40%;
+}
+
+.sec1{
+  background-color: rgb(43%, 67%, 42%);
+  padding: 2rem 0;
+}
+
+.papelverde{
+  height: 10.5rem;
+  background-image: url(../img/papelverde.png);
+  z-index: -10;
+}
+
+.contenido{
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  padding: 1em;
+}
+
+.numeros{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0 auto;
+  color: var(--azul);
+}
+.numeros div{
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid white;
+  border-radius: 8px;
+  box-shadow: 0 3px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.numero{
+  font-size: 5em;
+  font-weight: bold;
+  color: white;
+}
+
+.parrafo{
+  font-size: 1.5em;
+  text-align: center;
+  padding: 0 0.5em 1em 0.5em;
+}
+
+.numeros i{
+  font-size: 3em;
+}
+
+footer{
+  color: white;
+}
+
+.imgfoot{
+  background: linear-gradient(rgba(20, 44, 81, 0.88 ), rgba(20, 44, 81, 0.88)), url(../img/foot.jpg);
+  background-size: cover;
+  background-position: top left;
 }

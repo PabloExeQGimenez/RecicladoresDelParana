@@ -3,20 +3,24 @@ body{
   display: grid;
   grid-template:
   /*=============plantilla pc================================*/
-  " divtop divtop divtop divtop "   2.3rem
-  " header header nav    nav    "   8rem
-  " banner banner banner banner "   16rem
-  " main   main   main   main   "   calc(100dvh - 34.3rem)
-  " footer footer footer footer "   8rem   
-  /  1fr    1fr    1fr    1fr   ;
+  " divtop divtop divtop divtop divtop divtop divtop divtop "  2.3rem
+  " .      header header nav    nav    nav    nav    .      "  6rem
+  " banner banner banner banner banner banner banner banner "  25rem
+  " sec1   sec1   sec1   sec1   sec1   sec1   sec1   sec1   "  17rem
+  " pverde pverde pverde pverde pverde pverde pverde pverde "  10.5rem
+  " main   main   main   main   main   main   main   main   "  calc(100dvh - 32.3rem)
+  " footer footer footer footer footer footer footer footer "  16rem   
+  / 1fr    1fr    1fr    1fr    1fr    1fr    1fr    1fr    ;
   /*=========================================================*/
 }
-.divtop {grid-area: divtop;}
-header  {grid-area: header;}
-nav     {grid-area: nav   ;}
-.banner {grid-area: banner;}
-main    {grid-area: main  ;}
-footer  {grid-area: footer;}
+.divtop     { grid-area: divtop }
+header      { grid-area: header }
+nav         { grid-area: nav    }
+.banner     { grid-area: banner }
+.sec1       { grid-area: sec1   }
+.papelverde { grid-area: pverde }
+main        { grid-area: main   }
+footer      { grid-area: footer }
 
 
 /* minmax(100px, 1fr) 
