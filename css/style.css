@@ -6,24 +6,50 @@
 
 .divtop {
   display: flex;
-  height: 2.3rem;
   justify-content: center;
   align-items: center;
-  padding: 1rem;
   background-color: var(--azul);
   color: white;
   font-size: 1.2rem;
   box-shadow: 0 1px 5px 2px rgba(0, 0, 0, 0.5);
-  gap: 1rem;
+  gap: 1.5rem;
+}
+.datos, .redes{
+  display: flex;
+  gap: 1.5rem
 }
 
-.datos {
-  display: flex;
-  gap: 1.5rem;
-  justify-self: center;
+.divtop a{color: white}
+.divtop a:hover{
+  color: var(--verde1);
+  cursor: pointer
 }
 
-.redes {
+header, nav{
+  padding: 0.8rem;
+}
+
+.logo{
   display: flex;
-  gap: 1.5rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.logo img{
+  width: 7rem;
+}
+
+h1{
+  font-size: 2.2em;
+  margin: 0;
+  color: var(--azul);
+  text-align: center;
+  line-height: 0.8em;
+}
+h1 .i{
+  color: var(--verde1);
+}
+h1 span{
+  letter-spacing: 0.1em;
 }

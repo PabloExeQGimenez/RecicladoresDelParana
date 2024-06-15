@@ -3,10 +3,10 @@ body{
   display: grid;
   grid-template:
   /*=============plantilla pc================================*/
-  " divtop divtop divtop divtop "   2rem
+  " divtop divtop divtop divtop "   2.3rem
   " header header nav    nav    "   8rem
   " banner banner banner banner "   16rem
-  " main   main   main   main   "   calc(100dvh - 34rem)
+  " main   main   main   main   "   calc(100dvh - 34.3rem)
   " footer footer footer footer "   8rem   
   /  1fr    1fr    1fr    1fr   ;
   /*=========================================================*/
