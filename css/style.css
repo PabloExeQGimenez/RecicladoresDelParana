@@ -138,20 +138,74 @@ nav a:last-child:hover{
 
 }
 .numero{
-  font-size: 5em;
+  font-size: 4em;
   font-weight: bold;
   color: white;
 }
 
 .parrafo{
-  font-size: 1.5em;
-  padding: 0 0.5em 1em 0.5em;
+  font-size: 1.4em;
+  padding: 0 1em;
   color: var(--azul);
 }
 
 .placa i{
   font-size: 3em;
   color: var(--azul);
+}
+
+main{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 2rem;
+  color: var(--azul);
+}
+
+.main_texto{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.main_texto h2{
+  font-size: 2em;
+  align-self: center;
+}
+
+.main_texto p{
+  font-size: 1.3em;
+  text-align: start;
+  padding:0 1rem;
+  border-left: 2px solid var(--verde1);
+}
+
+.main_imagen img{
+  width: 25rem;
+  border-radius: 40px 0 40px 0;
+  box-shadow: 0px 2px 4px 3px rgba(0, 0, 0, 0.8);
+  transition: all 0.4s ease-in-out;
+}
+.main_imagen img:hover{
+  border-radius: 0px 40px 0px 40px;
+  transform: scale(1.03);
+  box-shadow: 0px 8px 8px 3px rgba(0, 0, 0, 0.8);
+
+}
+.boton{
+  background-color: var(--verde1);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 1px 2px 2px rgba(0, 0, 0, 0.8);
+  font-size: 1.1em;
+  width: 50%;
+  align-self: center;
+}
+.boton:hover{
+  background-color: var(--verde2);
 }
 
 footer{

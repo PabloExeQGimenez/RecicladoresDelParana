@@ -7,9 +7,10 @@
   " divtop divtop divtop divtop divtop divtop divtop divtop "  2.3rem
   " .      header header nav    nav    nav    nav    .      "  6rem
   " banner banner banner banner banner banner banner banner "  25rem
-  " sec1   sec1   sec1   sec1   sec1   sec1   sec1   sec1   "  18rem
+  " sec1   sec1   sec1   sec1   sec1   sec1   sec1   sec1   "  19rem
   " pverde pverde pverde pverde pverde pverde pverde pverde "  10.5rem
-  " main   main   main   main   main   main   main   main   "  100vh
+  " .      main   main   main   main   main   main   .      "  75vh
+  " sec2   sec2   sec2   sec2   sec2   sec2   sec2   sec2   "  19rem
   " footer footer footer footer footer footer footer footer "  16rem   
   / 1fr    1fr    1fr    1fr    1fr    1fr    1fr    1fr    ;
   /*=========================================================*/
@@ -21,6 +22,7 @@ nav         { grid-area: nav    }
 .sec1       { grid-area: sec1   }
 .papelverde { grid-area: pverde }
 main        { grid-area: main   }
+.sec2       { grid-area: sec2   }
 footer      { grid-area: footer }
 
 
