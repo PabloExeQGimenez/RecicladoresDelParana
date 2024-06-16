@@ -1,5 +1,3 @@
-@import url(reset.css);
-
 .contenedor{
   display: grid;
   grid-template: 
@@ -10,7 +8,7 @@
   " sec1   sec1   sec1   sec1   sec1   sec1   sec1   sec1   "  19rem
   " pverde pverde pverde pverde pverde pverde pverde pverde "  10.5rem
   " .      main   main   main   main   main   main   .      "  75vh
-  " sec2   sec2   sec2   sec2   sec2   sec2   sec2   sec2   "  75vh 
+  " sec2   sec2   sec2   sec2   sec2   sec2   sec2   sec2   "  80vh 
   " footer footer footer footer footer footer footer footer "  16rem   
   / 1fr    1fr    1fr    1fr    1fr    1fr    1fr    1fr    ;
   /*=========================================================*/
