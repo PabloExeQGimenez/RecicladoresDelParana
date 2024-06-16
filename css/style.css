@@ -208,6 +208,10 @@ main{
   background-color: var(--verde2);
 }
 
+.sec2{
+  background: linear-gradient(rgba());
+}
+
 footer{
   color: white;
 }
