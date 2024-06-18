@@ -5,7 +5,7 @@
   grid-template: 
   /*=============plantilla pc================================*/
   " divtop divtop divtop divtop divtop divtop divtop divtop "  2.3rem
-  " .      header header nav    nav    nav    nav    .      "  6rem
+  " .      header header menu   menu   menu   menu   .      "  6rem
   " banner banner banner banner banner banner banner banner "  25rem
   " sec1   sec1   sec1   sec1   sec1   sec1   sec1   sec1   "  19rem
   " pverde pverde pverde pverde pverde pverde pverde pverde "  10.5rem
@@ -17,7 +17,7 @@
 }
 .divtop     { grid-area: divtop }
 header      { grid-area: header }
-nav         { grid-area: nav    }
+.menu       { grid-area: menu   }
 .banner     { grid-area: banner }
 .sec1       { grid-area: sec1   }
 .papelverde { grid-area: pverde }
