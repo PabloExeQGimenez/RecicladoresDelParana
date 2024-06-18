@@ -1,3 +1,5 @@
+@import url(reset.css);
+
 .contenedor{
   display: grid;
   grid-template: 
@@ -8,7 +10,11 @@
   " sec1   sec1   sec1   sec1   sec1   sec1   sec1   sec1   "  19rem
   " pverde pverde pverde pverde pverde pverde pverde pverde "  10.5rem
   " .      main   main   main   main   main   main   .      "  75vh
+<<<<<<< HEAD
   " sec2   sec2   sec2   sec2   sec2   sec2   sec2   sec2   "  90vh 
+=======
+  " sec2   sec2   sec2   sec2   sec2   sec2   sec2   sec2   "  75vh 
+>>>>>>> parent of 92b9f78 (seccion 2)
   " footer footer footer footer footer footer footer footer "  16rem   
   / 1fr    1fr    1fr    1fr    1fr    1fr    1fr    1fr    ;
   /*=========================================================*/
