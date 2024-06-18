@@ -52,7 +52,55 @@ h1 .i {
 h1 span {
   letter-spacing: 0.09em;
 }
-.menu {
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.menu{
+  display: flex;
+  width: max-content;
+  align-items: center;
+  margin: 0;
+  gap: 1rem;
+}
+
+.menu__parent{
+  position: relative;
+  transition: all 0.5s;
+  display: flex;
+  border: 2px solid white;
+
+}
+.menu__parent:hover, .menu__link:hover {
+  background-color: var(--papelVerde);
+}
+
+.menu__link{
+  color: var(--azul);
+  text-decoration: none;
+  font-size: 1.2em;
+  padding: 0.5rem 1rem;
+}
+
+.menu__child{
+  background-color:var(--papelVerde);
+  display: grid;
+  padding: 1rem;
+  list-style: none;
+  width: max-content;
+  gap: 1rem;
+  position: absolute;
+  top: 105%;
+  left: 0;
+  clip-path: circle(0% at top center);
+  transition: all 0.5s;
+  z-index: 30;
+}
+.menu__parent:hover .menu__child{
+  clip-path: circle(150% at center top);
+}
+/* .menu {
   display: flex;
   justify-content: end;
   align-items: center;
@@ -96,7 +144,7 @@ h1 span {
 
 .menu__links ul li:hover {
   background-color: rgb(92, 79, 79);
-}
+} */
 .carousel {
   display: flex;
   justify-content: center;

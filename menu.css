@@ -1,0 +1,35 @@
+.menu{
+  width: max-content;
+  margin: 40px auto;
+  background-color: #000;
+  color: white;
+  padding: 0;
+}
+
+.menu__parent{
+  position: relative;
+  padding: 1rem 3rem;
+  transition: all 0.5s;
+}
+
+.menu__link{
+  color: wheat;
+  text-decoration: none;
+}
+
+.menu__child{
+  background-color: rgb(52, 10, 52);
+  display: grid;
+  padding: 2rem 1rem;
+  list-style: none;
+  width: max-content;
+  gap: 1rem;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  clip-path: circle(0% at top center);
+  transition: all 0.5s;
+}
+.menu__parent:hover .menu__child{
+  clip-path: circle(150% at center top);
+}
